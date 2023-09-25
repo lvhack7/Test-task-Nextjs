@@ -1,0 +1,35 @@
+.search_container {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-radius: 1rem;
+    filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    flex-wrap: wrap;
+}
+
+.input {
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.find {
+    padding: 1rem;
+    outline: none;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
+}
+
+.find:hover {
+    cursor: pointer;
+}
